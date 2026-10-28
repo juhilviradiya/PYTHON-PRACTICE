@@ -1,8 +1,8 @@
-num=int(input("enter the number : "))
-cube=num**3
-digits=len(str(num))
-divisor=10**digits
-if cube % divisor==num:
-    print("trimorphic number ")
+num = 135
+sqr = num ** 3
+dup = num
+if str(sqr).endswith(str(dup)):
+    print("Trimorphic Number")
 else:
-    print("not trimorphic number ")
+    print("Not Trimorphic Number")
+        
