@@ -1,6 +1,8 @@
-num=int(input("enter the numebr : "))
-sqr=num * num
-if sqr % (10**len(str(num)))==num:
-    print("automorphic")
+num = 25
+sqr = num ** 2
+dup = num
+if str(sqr).endswith(str(dup)):
+    print("Automorphic Number.")
 else:
-    print("not automorphic")
+    print("Not Automorphic Number")
+        
